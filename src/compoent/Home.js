@@ -1,12 +1,9 @@
-import React from "react"
+import React from 'react'
+import Slider from './slider/Slider';
 
-const Home = () => {
+export const Home = () => {
   return (
-    <>
-      <section className='hero'>
-        <h1 className='bg-red-500'>Welcome To Home Page</h1>
-      </section>
-    </>
+    <Slider/>
   )
 }
-export default Home
+export default Home;
