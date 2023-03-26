@@ -8,7 +8,7 @@ const About = () => {
      <section>
         
         <div >
-        <img src={bg} alt=""className="w-full h-96"/>
+        <img src={bg} alt=""className="w-full h-screen"/>
         </div>
         <div>
          <AboutDetails/>
