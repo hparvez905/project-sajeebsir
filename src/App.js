@@ -5,8 +5,11 @@ import About from "./compoent/About"
 import Clients from "./compoent/Clients"
 import Contact from "./compoent/Contact"
 import Services from "./compoent/Services"
+import  Resources  from "./compoent/Resources"
+import  Course  from "./compoent/Course"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Footer } from "./compoent/footer/Footer"
+
 
 //npm install react-router-dom@5
 
@@ -31,6 +34,12 @@ function App() {
           </Route>
           <Route path='/services' compoent={Services} exact>
             <Services />
+          </Route>
+          <Route path='/resources' compoent={Resources} exact>
+            <Resources/>
+          </Route>
+          <Route path='/course' compoent={Course} exact>
+            <Course/>
           </Route>
         </Switch>
         <Footer/>

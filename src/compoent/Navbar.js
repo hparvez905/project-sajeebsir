@@ -27,6 +27,12 @@ const Navbar = () => {
           <Link to='/clients' className='clients'>
             <li className="hover:bg-orange-700 hover:text-white rounded">Clients</li>
           </Link>
+          <Link to='/resources'  className='resources'>
+          <li className="hover:bg-orange-700 hover:text-white rounded">Resources</li>
+          </Link>
+          <Link to='/course'  className='course'>
+          <li className="hover:bg-orange-700 hover:text-white rounded">Courses</li>
+          </Link>
           <Link to='/contact' className='home'>
             <li className="hover:bg-orange-700 hover:text-white rounded">contact us</li>
           </Link>
