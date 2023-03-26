@@ -8,24 +8,30 @@ import LabDesign from './services/serviceComponent/LabDesign'
 const Services = () => {
   return (
     <>
-      <section >
-        <h1>Welcome To Services Page</h1>
-        <Router>
+      <section className="mx-48 p-10" >
+        <h1 className="text-3xl font-bold text-gray-700 mb-6">OUR SERVICES</h1>
+       <div className="flex">
+       <Router>
+       <div className="flex-none">
        <Service/>
+       </div>
 
+        <div className="grow bg-red-600">
         <Switch>
-          <Route path='/certification' compoent={Certification} exact>
+          <Route path='/certification' component={Certification} exact>
             <Certification/>
           </Route>
-          <Route path='/inspection' compoent={Inspection} exact>
+          <Route path='/inspection' component={Inspection} exact>
             <Inspection/>
           </Route>
-          <Route path='/labDesign' compoent={LabDesign} exact>
+          <Route path='/labDesign' component={LabDesign} exact>
             <LabDesign/>
           </Route>
         </Switch>
+        </div>
         
       </Router>
+       </div>
        
       
       </section>

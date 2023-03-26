@@ -33,7 +33,7 @@ function App() {
           <Route path='/contact' compoent={Contact} exact>
             <Contact />
           </Route>
-          <Route path='/services' compoent={Services} exact>
+          <Route path='/certification' compoent={Services} exact>
             <Services />
           </Route>
           <Route path='/resources' compoent={Resources} exact>
