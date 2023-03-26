@@ -9,14 +9,16 @@ const Services = () => {
   return (
     <>
       <section className="mx-48 p-10" >
-        <h1 className="text-3xl font-bold text-gray-700 mb-6">OUR SERVICES</h1>
+
        <div className="flex">
+      
        <Router>
        <div className="flex-none">
+       <h1 className="text-3xl font-bold text-gray-700 mb-6">OUR SERVICES</h1>
        <Service/>
        </div>
 
-        <div className="grow bg-red-600">
+        <div className="grow  ml-12">
         <Switch>
           <Route path='/certification' component={Certification} exact>
             <Certification/>

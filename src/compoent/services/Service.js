@@ -5,13 +5,13 @@ import { Link } from "react-router-dom"
   return (
     <ul>
           <Link to='/certification' className='certification'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">Certification</li>
+            <li className="hover:font-semibold hover:underline text-sky-600">Certification</li>
           </Link>
           <Link to='/inspection' className='inspection'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">Inspection</li>
+            <li className="hover:font-semibold text-sky-600 hover:underline">Inspection</li>
           </Link>
           <Link to='/labDesign' className='labDesign'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">LabDesign</li>
+            <li className="hover:font-semibold  text-sky-600 hover:underline">LabDesign</li>
           </Link>
         </ul>
   )
