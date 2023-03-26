@@ -9,6 +9,7 @@ import  Resources  from "./compoent/Resources"
 import  Course  from "./compoent/Course"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Footer } from "./compoent/footer/Footer"
+import NotFound from "./compoent/NotFound"
 
 
 //npm install react-router-dom@5
@@ -40,6 +41,10 @@ function App() {
           </Route>
           <Route path='/course' compoent={Course} exact>
             <Course/>
+          </Route>
+          <Route path="*" compoent={NotFound}>
+            <NotFound/>
+
           </Route>
         </Switch>
         <Footer/>
