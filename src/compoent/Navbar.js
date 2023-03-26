@@ -16,19 +16,19 @@ const Navbar = () => {
         */}
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
           <Link to='/' className='home'>
-            <li>Home</li>
+            <li className="hover:bg-orange-700 hover:text-white rounded">Home</li>
           </Link>
           <Link to='/about' className='about'>
-            <li>About</li>
+            <li className="hover:bg-orange-700 hover:text-white rounded">About us</li>
           </Link>
           <Link to='/services' className='services'>
-            <li>Services</li>
+            <li className="hover:bg-orange-700 hover:text-white rounded">Services</li>
           </Link>
-          <Link to='/skills' className='skills'>
-            <li>Skills</li>
+          <Link to='/clients' className='clients'>
+            <li className="hover:bg-orange-700 hover:text-white rounded">Clients</li>
           </Link>
           <Link to='/contact' className='home'>
-            <li>contact</li>
+            <li className="hover:bg-orange-700 hover:text-white rounded">contact us</li>
           </Link>
         </ul>
         {/* 

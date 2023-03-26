@@ -1,12 +1,12 @@
 import React from "react"
 
-const Skills = () => {
+const Clients = () => {
   return (
     <>
       <section className='hero'>
-        <h1>Welcome To Skills Page</h1>
+        <h1>Welcome To Clients Page</h1>
       </section>
     </>
   )
 }
-export default Skills
+export default Clients;

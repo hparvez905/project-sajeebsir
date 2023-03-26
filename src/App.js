@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./compoent/Navbar"
 import Home from "./compoent/Home"
 import About from "./compoent/About"
-import Skills from "./compoent/Skills"
+import Clients from "./compoent/Clients"
 import Contact from "./compoent/Contact"
 import Services from "./compoent/Services"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
@@ -23,8 +23,8 @@ function App() {
           <Route path='/about' compoent={About} exact>
             <About />
           </Route>
-          <Route path='/skills' compoent={Skills} exact>
-            <Skills />
+          <Route path='/clients' compoent={Clients} exact>
+            <Clients />
           </Route>
           <Route path='/contact' compoent={Contact} exact>
             <Contact />
