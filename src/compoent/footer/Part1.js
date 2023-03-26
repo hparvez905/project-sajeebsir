@@ -12,7 +12,7 @@ const Part1 = () => {
           <div className="lg:flex">
             <div className=" p-2">
               <h1 className="text-4xl font-semibold text-gray-600">
-                Sajeeb sir 
+                Logo
               </h1>
             </div>
             

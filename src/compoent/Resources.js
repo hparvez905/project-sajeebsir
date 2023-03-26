@@ -9,9 +9,33 @@ const Resources = () => {
         <div >
         <img src={bg} alt=""className="w-full h-96"/>
         </div>
-        <div>
-          <p className="m-auto p-4 mx-40 my-6">
-To find out how World BioHazTec can assist you and your team, please contact us at a location listed below, call +65 6634 2600 or email at <span className="hover:underline text-sky-600">Lng@worldbiohaztec.com</span>. We typically respond within two business days.</p>
+        <div className="mx-48 p-6">
+          <h1 className="text-4xl">United States Guidelines and Regulations</h1>
+         <div>
+         <ul>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         </ul>
+         </div>
+        </div>
+        <div className="mx-48 p-6">
+          <h1 className="text-4xl">International Guidelines and Regulations</h1>
+         <div>
+         <ul>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         <li className="hover:underline text-sky-600 my-4 cursor-pointer">CDC/NIH Biosafety in Microbiological and Biomedical Laboratories Guidelines (BMBL), 5th Edition</li>
+         </ul>
+         </div>
         </div>
         
       </section>
