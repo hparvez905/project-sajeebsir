@@ -1,12 +1,17 @@
 import React from "react"
+import bg from '../assets/c.avif'
 
 const Contact = () => {
   return (
     <>
-      <section className='hero'>
-        <h1>Welcome To Contact Page</h1>
+      <section>
+        
+        <div >
+        <img src={bg} alt=""className="w-full h-96"/>
+        </div>
+        
       </section>
     </>
   )
 }
-export default Contact
+export default Contact;
