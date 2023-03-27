@@ -6,8 +6,14 @@ const Course = () => {
     <>
        <section>
         
-        <div >
+        <div className="relative">
         <img src={bg} alt=""className="w-full h-96"/>
+        <div className="bg-white h-36 w-1/3  ml-60 absolute top-[25%]  ">
+          <div className="p-2 mt-4 ml-6">
+          <p className="text-md font-semibold text-red-600 mb-4">Course Registration</p>
+          <p className="text-3xl mb-4">How to register for our courses</p>
+          </div>
+        </div>
         </div>
         <div>
           <p className="m-auto p-4 mx-48 my-6 text-3xl">
