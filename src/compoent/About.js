@@ -12,6 +12,7 @@ const About = () => {
         </div>
         <div>
          <AboutDetails/>
+         
         </div>
         
       </section>

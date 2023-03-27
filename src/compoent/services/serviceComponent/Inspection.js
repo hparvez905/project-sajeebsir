@@ -5,7 +5,7 @@ import bg from '../../../assets/Inspection.jpg'
   return (
     <div>
       <div className='mb-10'>
-      <img src={bg} className='w-full h-1/2'/>
+      <img src={bg} alt='' className='w-full h-1/2'/>
       </div>
 
       <div>
