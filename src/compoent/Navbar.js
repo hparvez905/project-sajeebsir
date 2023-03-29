@@ -3,13 +3,14 @@ import "./navbar.css"
 import { Link } from "react-router-dom"
 import { FaBars } from "react-icons/fa"
 import { ImCross } from "react-icons/im"
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
       <nav className='navbar bg-orange-600'>
-        <h3 className='logo'>Logo</h3>
+        <h3 className='logo'><img src={logo} alt=""/></h3>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa
