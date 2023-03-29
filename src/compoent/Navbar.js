@@ -9,33 +9,33 @@ const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
-      <nav className='navbar bg-orange-600'>
-        <h3 className='logo'><img src={logo} alt=""/></h3>
+      <nav className='navbar bg-amber-400'>
+        <h3 className=' w-1/5 p-10 '><img src={logo} alt="" /></h3>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa
         */}
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
           <Link to='/' className='home'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">Home</li>
+            <li className="hover:bg-sky-500 hover:text-white rounded">Home</li>
           </Link>
           <Link to='/about' className='about'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">About us</li>
+            <li className="hover:bg-sky-500 hover:text-white rounded">About us</li>
           </Link>
           <Link to='/certification' className='services'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">Services</li>
+            <li className="hover:bg-sky-500 hover:text-white rounded">Services</li>
           </Link>
           <Link to='/clients' className='clients'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">Clients</li>
+            <li className="hover:bg-sky-500 hover:text-white rounded">Clients</li>
           </Link>
           <Link to='/resources'  className='resources'>
-          <li className="hover:bg-orange-700 hover:text-white rounded">Resources</li>
+          <li className="hover:bg-sky-500 hover:text-white rounded">Resources</li>
           </Link>
           <Link to='/course'  className='course'>
-          <li className="hover:bg-orange-700 hover:text-white rounded">Courses</li>
+          <li className="hover:bg-sky-500 hover:text-white rounded">Courses</li>
           </Link>
-          <Link to='/contact' className='home'>
-            <li className="hover:bg-orange-700 hover:text-white rounded">contact us</li>
+          <Link to='/contact' className='contact'>
+            <li className="hover:bg-sky-500 hover:text-white rounded">contact us</li>
           </Link>
         </ul>
         {/* 
